@@ -51,7 +51,7 @@ while True:
         lstTbl.append(dictRow)
     elif strChoice == 'i':
         # 3. Display the current data to the user each time the user wants to display the data
-        # Crashes of pressed before l for load. not sure how to check for 
+        # Crashes if pressed before l for load. not sure how to check for 
         # validity of data prior to execution
         print('ID, Title, Artist')
         for row in lstTbl:
